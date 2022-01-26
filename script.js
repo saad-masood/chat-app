@@ -15,6 +15,7 @@ socket.on('chat-message', data=>{
 
 socket.on('user-connected', user_name=>{
     appendMessage(`${user_name} connected`)
+    
 })
 
 socket.on('user-disconnected', user_name=>{
